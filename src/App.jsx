@@ -54,7 +54,7 @@ function Sidebar({sidebarOpen, setSidebarOpen}) {
         </div>
     </div>
   }
-    return <div className='w-96 h-screen bg-red-100'>
+    return <div className='w-96 h-screen bg-red-100 fixed top-0 left-0 md:relative'>
     <div>
       <div className='cursor-pointer hover:bg-slate-200' onClick={() => {
         setSidebarOpen(!sidebarOpen)
